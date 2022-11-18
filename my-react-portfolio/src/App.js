@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from "./components/navigation";
+import Landpage from './components/landingpage';
+import Aboutme from './components/aboutme';
+import Extrainfo from './components/extrainfo';
+import Services from './components/services';
+import Skills from './components/skills';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         cool
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Navbar />
+        <Landpage />
+        <Aboutme />
+        <Extrainfo />
+        <Services />
+        <Skills />
+      </div>
     </div>
   );
 }
