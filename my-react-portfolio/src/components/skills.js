@@ -1,8 +1,17 @@
+import {FaHtml5} from "../../node_modules/react-icons/fa"
+import {FaCss3} from "../../node_modules/react-icons/fa"
+import {FaBootstrap} from "../../node_modules/react-icons/fa"
+import {FaJsSquare} from "../../node_modules/react-icons/fa"
+import {FaReact} from "../../node_modules/react-icons/fa"
+import {FaFigma} from "../../node_modules/react-icons/fa"
+import {FaCheck} from "../../node_modules/react-icons/fa"
+
+
 
 function Skills() {
-    return (
-        <div class="row p-5 bg-dark text-white">
-  <section id="skills">
+return (
+  <div class="row p-5 bg-dark text-white">
+    <section id="skills">
     
     <h2 class="lh-1">SKILLS</h2>
     <br/>
@@ -10,18 +19,26 @@ function Skills() {
     <div class="col">
     <h4 class="mb-3">PROGRAMMING LANGUAGE AND TOOLS</h4>
     <div class="mb-5 display-inline-block ">
-    <i class='fab fa-html5 text-warning'></i>
-    <i class='fab fa-css3-alt text-warning'></i>
-    <i class="fab fa-brands fa-bootstrap text-warning"></i>
-    <i class="fab fa-brands fa-square-js text-warning"></i>
+    <FaHtml5 class="text-warning fs-1 me-2"/>
+    <FaCss3 class="text-warning fs-1 me-2"/>
+    <FaBootstrap class="text-warning fs-1 me-2"/>
+    <FaJsSquare class="text-warning fs-1 me-2"/>
+    <FaFigma class="text-warning fs-1 me-2"/>
+    <FaReact class="text-warning fs-1 me-2"/>
+
     </div>
 
     </div>
     <div class="col">
+   
+    <ul>
     <h4>WORK FLOW</h4>
-    <p>&#10004 STRUCTURE PAGE WITH HTML</p>
-    <p>&#10004 DESIGNING USING CSS & BOOTSTRAP </p>
-    <p>&#10004 SOME JAVASCRIPT </p>
+      <li><FaCheck/> STRUCTURE PAGE WITH HTML</li>
+      <li><FaCheck/> DESIGNING USING CSS & BOOTSTRAP</li>
+      <li><FaCheck/> ADD SOME JAVASCRIPT</li>
+      <li><FaCheck/> CONVERTING REACT COMPONENTS</li>
+    </ul>
+
     </div>
     </div>
    

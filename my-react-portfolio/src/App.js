@@ -5,6 +5,8 @@ import Aboutme from './components/aboutme';
 import Extrainfo from './components/extrainfo';
 import Services from './components/services';
 import Skills from './components/skills';
+import Portfolio from './components/portfolio';
+import Contactmodal from './components/contactmodal';
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
         <Extrainfo />
         <Services />
         <Skills />
+        <Portfolio />
+        <Contactmodal />
+        
       </div>
     </div>
   );
